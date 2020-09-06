@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: 37.59.48.5:5000/justme/myweb:1
+      - image: 37.59.48.5:5000/yabsambaye/myweb:1
         imagePullPolicy: Always
         name: myweb
 
