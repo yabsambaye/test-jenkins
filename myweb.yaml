@@ -29,9 +29,10 @@ metadata:
   name: myweb
 spec:
   ports:
-  - port: 80
+  - nodePort: 32223
+    port: 80
     protocol: TCP
-#    targetPort: 80
+    targetPort: 80
   selector:
     app: myweb
-  type: ClusterIP
+  type: NodePort
